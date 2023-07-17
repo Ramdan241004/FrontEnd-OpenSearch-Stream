@@ -1,9 +1,12 @@
 ## How to deploy
 
-* Required environment variables:
-    - `TABLE_NAME`: DynamoDB table name
-    - `INDEX_NAME`: OpenSearch index name
-    - `OPENSEARCH_URL`: OpenSearch URL
-    - `BASE_URL`: The application base URL (e.g., http://modul1.ramdan.cloud)
-    - `HOSTNAME`: 0.0.0.0
-    - `PORT`: 80
+> Required environment variables:
+
+```sh
+TABLE_NAME=YOUR_DYNAMODB_TABLE_NAME
+INDEX_NAME=YOUR_INDEX_OPENSEARCH_NAME
+OPENSEARCH_URL=YOUR_OPENSEARCH_URL
+BASE_URL=YOUR_HOSTNAME
+HOSTNAME=0.0.0.0
+PORT=80
+```
